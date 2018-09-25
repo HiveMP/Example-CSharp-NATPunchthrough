@@ -98,7 +98,7 @@ namespace NATPunchthroughDemo
                 {
                     var message = Encoding.ASCII.GetString(result.Buffer);
 
-                    Console.WriteLine("Recieved remote packet: " + message);
+                    Console.WriteLine("Received remote packet: " + message);
                 }
             }
         }
